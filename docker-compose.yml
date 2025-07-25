@@ -1,0 +1,17 @@
+services:
+  fliptimer_ayushchugh_com_nextjs:
+    image: fliptimer.ayushchugh.com
+    container_name: fliptimer.ayushchugh.com
+    working_dir: /app
+    ports:
+      - "3002:3000"
+    expose:
+      - "3000"
+    command: "npm start"
+    environment:
+      NODE_ENV: production
+    env_file:
+      - .env
+    build:
+      context: .
+      dockerfile: Dockerfile
