@@ -19,5 +19,5 @@ A sleek and responsive countdown timer web app that lets you set a target date a
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/the-final-countdown.git
+git clone https://github.com/Sibashish-16/The-Final-Countdown.git
 cd the-final-countdown
